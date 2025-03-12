@@ -1,7 +1,7 @@
 [target.thumbv7em-none-eabihf]
 
 # runner = "probe-rs run --chip STM32F303RETx"
-runner = "probe-rs run --chip STM32F303ZETx"
+runner = "probe-rs run --chip STM32WB55RG"
 
 [build]
 target = "thumbv7em-none-eabihf"
