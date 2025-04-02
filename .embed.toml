@@ -1,0 +1,9 @@
+# Configuration reference for the `cargo embed` command.
+# https://github.com/probe-rs/probe-rs/blob/master/probe-rs-tools/src/bin/probe-rs/cmd/cargo_embed/config/default.toml
+
+[default.general]
+chip = "STM32WB55RGVx"
+
+[default.rtt]
+enabled = true
+

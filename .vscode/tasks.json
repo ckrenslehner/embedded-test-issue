@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Firmware",
+            "type": "shell",
+            "command": "cargo",
+            "args": [
+                "build",
+            ],
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "detail": "Builds the Rust project using Cargo."
+        }
+    ]
+}
